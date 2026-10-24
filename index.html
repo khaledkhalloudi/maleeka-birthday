@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#160b12">
+  <meta name="description" content="A birthday surprise made especially for Maleeka.">
+  <title>Happy Birthday, Maleeka ♡</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient" aria-hidden="true"></div>
+  <div id="effects" aria-hidden="true"></div>
+
+  <section id="intro" class="intro">
+    <div class="intro-stars" aria-hidden="true"></div>
+    <div class="intro-content">
+      <p class="eyebrow">A LITTLE SURPRISE, JUST FOR YOU</p>
+      <div class="intro-rose" aria-hidden="true">🌹</div>
+      <h1>Hey,<br><span>Maleeka.</span></h1>
+      <p class="intro-copy">Some people make ordinary moments<br>feel a little more beautiful.</p>
+      <button id="startButton" class="button">Open your surprise <span>♡</span></button>
+    </div>
+    <p class="intro-bottom">MADE WITH CARE & FRIENDSHIP</p>
+  </section>
+
+  <main id="mainContent" class="hidden">
+    <header class="topbar">
+      <a class="brand" href="#home">M<span>♡</span></a>
+      <span>A LITTLE BIRTHDAY STORY</span>
+    </header>
+
+    <section id="home" class="hero section">
+      <p class="eyebrow reveal">TODAY IS ALL ABOUT YOU</p>
+      <div class="hero-rose reveal" aria-hidden="true">✿</div>
+      <h2 class="reveal">Happy Birthday,<br><span>Maleeka</span></h2>
+      <p class="hero-copy reveal">A wonderful friend. A beautiful soul.<br>A person worth celebrating.</p>
+      <div class="divider reveal"><span>♡</span><i></i><span>✦</span><i></i><span>♡</span></div>
+      <a class="scroll-link reveal" href="#letter">A LITTLE SOMETHING FOR YOU ↓</a>
+    </section>
+
+    <section id="letter" class="section letter-section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">WORDS JUST FOR YOU</p>
+        <h2>A little letter <em>for you.</em></h2>
+      </div>
+      <article class="letter-card reveal">
+        <div class="letter-stamp">♡</div>
+        <p class="letter-dear">Dear Maleeka,</p>
+        <p>Happy Birthday to one of the most wonderful people I've had the pleasure of knowing! ♡</p>
+        <p>I wanted to make you something a little different this year — a small place filled with good wishes and memories we can look back on with a smile.</p>
+        <p>Thank you for being you: for the moments, the laughter, and the memories that make our friendship special. I hope this new chapter brings you genuine happiness, beautiful opportunities, peaceful days, and countless reasons to smile.</p>
+        <p>May Allah protect you, guide your steps, bless your future, and grant you what is best for your heart and your life. May He fill your days with peace, success, and barakah. Ameen. 🤲</p>
+        <p>I hope you keep growing, keep smiling, and never forget how much good you deserve. May this year be kinder, brighter, and full of lovely surprises.</p>
+        <p class="letter-closing">Keep shining, birthday girl. 🌹</p>
+        <p class="signature">With warm wishes & friendship,<br><span>Your friend ♡</span></p>
+      </article>
+    </section>
+
+    <section id="memories" class="section memories-section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">LITTLE MOMENTS, BIG MEMORIES</p>
+        <h2>Our <em>memories.</em></h2>
+        <p class="section-copy">Five little snapshots of time — saved here to revisit and smile about.</p>
+      </div>
+      <div class="gallery">
+        <button class="photo-card reveal" data-photo="photos/photo1.jpg" aria-label="Open memory one">
+          <span class="photo-wrap"><img src="photos/photo1.jpg" alt="Memory with Maleeka, photo one" loading="lazy"></span>
+          <span class="photo-caption"><b>01</b> A moment to keep <i>♡</i></span>
+        </button>
+        <button class="photo-card reveal" data-photo="photos/photo2.jpg" aria-label="Open memory two">
+          <span class="photo-wrap"><img src="photos/photo2.jpg" alt="Memory with Maleeka, photo two" loading="lazy"></span>
+          <span class="photo-caption"><b>02</b> The little things <i>♡</i></span>
+        </button>
+        <button class="photo-card reveal" data-photo="photos/photo3.jpg" aria-label="Open memory three">
+          <span class="photo-wrap"><img src="photos/photo3.jpg" alt="Memory with Maleeka, photo three" loading="lazy"></span>
+          <span class="photo-caption"><b>03</b> Good times together <i>♡</i></span>
+        </button>
+        <button class="photo-card reveal" data-photo="photos/photo4.jpg" aria-label="Open memory four">
+          <span class="photo-wrap"><img src="photos/photo4.jpg" alt="Memory with Maleeka, photo four" loading="lazy"></span>
+          <span class="photo-caption"><b>04</b> One for the scrapbook <i>♡</i></span>
+        </button>
+        <button class="photo-card reveal" data-photo="photos/photo5.jpg" aria-label="Open memory five">
+          <span class="photo-wrap"><img src="photos/photo5.jpg" alt="Memory with Maleeka, photo five" loading="lazy"></span>
+          <span class="photo-caption"><b>05</b> More memories to come <i>♡</i></span>
+        </button>
+        <button class="photo-card reveal" data-photo="photos/photo6.jpg" aria-label="Open memory six">
+          <span class="photo-wrap"><img src="photos/photo6.jpg" alt="Memory with Maleeka, photo six" loading="lazy"></span>
+          <span class="photo-caption"><b>06</b> Another memory to treasure <i>♡</i></span>
+        </button>
+      </div>
+      <p class="gallery-note reveal">The best memories are the ones that still make us smile.</p>
+    </section>
+
+    <section class="section final-section">
+      <div class="final-orbit reveal" aria-hidden="true"><span>♡</span></div>
+      <p class="eyebrow reveal">BEFORE YOU GO...</p>
+      <h2 class="reveal">One last wish,<br><em>Maleeka.</em></h2>
+      <p class="final-copy reveal">There's one more little message waiting for you.</p>
+      <button id="surpriseButton" class="button reveal">Reveal your final surprise <span>✦</span></button>
+      <article id="finalMessage" class="final-message hidden" aria-live="polite">
+        <div class="cake">🎂</div>
+        <h3>May your year be beautiful.</h3>
+        <p>May your days be filled with sincere people, your heart with peace, and your path with opportunities that bring out the best in you.</p>
+        <p>May Allah grant you happiness in this life and the next, protect you wherever you go, and make your coming year better than the one before. Ameen. 🤲</p>
+        <p class="last-line">Happy Birthday, Maleeka! 🌹♡</p>
+      </article>
+    </section>
+
+    <footer>
+      <div class="footer-mark">M <span>♡</span></div>
+      <p>A little birthday story, made especially for Maleeka.</p>
+      <span class="footer-small">ONE SPECIAL DAY · MANY BEAUTIFUL MEMORIES</span>
+    </footer>
+  </main>
+
+  <div id="lightbox" class="lightbox hidden" role="dialog" aria-modal="true" aria-label="Expanded memory">
+    <button id="closeLightbox" class="close-lightbox" aria-label="Close photo">×</button>
+    <img id="lightboxImage" src="" alt="Expanded memory">
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
